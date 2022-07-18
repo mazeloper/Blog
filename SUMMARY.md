@@ -2,12 +2,11 @@
 
 * [Intro](README.md)
 
-## The Company
+## DEV
 
-* [Vision and Values](the-company/vision-and-values.md)
-* [Meet the Team!](the-company/meet-the-team.md)
+* [Kotlin](dev/kotlin/README.md)
+  * [sealed class](dev/kotlin/sealed-class.md)
 
-## The Formal Stuff
+## Books
 
-* [Requesting Time Off](the-formal-stuff/requesting-time-off.md)
-* [Filing Expenses](the-formal-stuff/filing-expenses.md)
+* [코틀린 완벽 가이드](books/undefined.md)

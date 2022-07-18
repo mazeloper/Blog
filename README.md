@@ -1,9 +1,23 @@
 ---
+description: Don't be lazy
 coverY: 0
 ---
 
-# Welcome!
+# Intro
 
-## Welcome aboard!
+## About Me 🧐
 
-Welcome to the company wiki! Here you'll find everything you need to know about the company.
+Android Developer
+
+🙋‍♂️Name: Junsu Choi
+
+🔗Github: [https://github.com/mazeloper](https://github.com/mazeloper)
+
+✉️Email: [lezam682@gmail.com](https://app.gitbook.com/u/25W232lR1eghClpUu5ppgZ9JIUH2)
+
+
+
+
+
+
+

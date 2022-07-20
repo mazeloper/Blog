@@ -4,8 +4,7 @@
 
 ## DEV
 
-* [Kotlin](dev/kotlin/README.md)
-  * [sealed class](dev/kotlin/sealed-class.md)
+* [Kotlin](dev/kotlin.md)
 
 ## Books
 

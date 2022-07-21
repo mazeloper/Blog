@@ -4,7 +4,8 @@
 
 ## DEV
 
-* [Kotlin](dev/kotlin.md)
+* [Android](dev/android/README.md)
+  * [MVVM 패턴](dev/android/mvvm.md)
 
 ## Books
 

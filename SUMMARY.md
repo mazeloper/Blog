@@ -6,7 +6,8 @@
 
 * [Android](dev/android/README.md)
   * [MVVM 패턴](dev/android/mvvm.md)
-  * [\[Jetpack\] Navigation](dev/android/jetpack-navigation.md)
+  * [Jetpack](dev/android/jetpack/README.md)
+    * [Navigation](dev/android/jetpack/navigation.md)
 * [Kotlin](dev/kotlin/README.md)
   * [sealed class](dev/kotlin/sealed-class.md)
 

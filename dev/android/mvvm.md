@@ -24,7 +24,7 @@
 
 
 
-### &#x20; ViewModel
+### &#x20;ViewModel
 
 #### 안드로이드 프레임워크는 Activity / Fragment 와 같은 UI 컨트롤러의 수명 주기를 관리한다.
 
@@ -34,7 +34,7 @@
 
 `ViewModel` 객체는 이러한 상황에서 자동으로 보관되어 액티비티 / 프래그먼트 인스턴스에서 즉시 사용할 수 있다.
 
-#### 구현
+#### # 구현
 
 ```kotlin
 class MainViewModel : ViewModel() {
@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
 위에 코드와 같이 뷰모델 클래스는 Jetpack에서 제공하는 `ViewModel` 을 상속하여 만들 수 있고,\
 액티비티나 프래그먼트에서 객체생성하여 사용할 수있다.
 
-#### ViewModel 생명주기
+#### # ViewModel 생명주기
 
 ![https://developer.android.com/topic/libraries/architecture/viewmodel](../../.gitbook/assets/viewmodel-lifecycle.png)
 
@@ -80,7 +80,7 @@ ViewModel 객체의 범위는 ViewModel 을 가져올 때 ViewModelProvider 에 
 \
 위 [코드](mvvm.md#undefined)에 액티비티에서 뷰모델을 초기화할 때 ktx 라이브러리를 사용하는 경우 객체의 범위를 쉽게 지정할 수 있다.
 
-#### 프래그먼트 간 데이터 공유
+#### # 프래그먼트 간 데이터 공유
 
 하나의 액티비티에서 둘 이상의 프래그먼트를 사용할 때 각각의 뷰모델을 작성하게 되면 둘 이상의 프래그먼트에서의 결합이 쉽게 처리될 수 없는 부분이기에 공유되는 뷰모델을 사용해야 한다.\
 

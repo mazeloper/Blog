@@ -6,6 +6,8 @@
 
 * [Android](dev/android/README.md)
   * [MVVM 패턴](dev/android/mvvm.md)
+* [Kotlin](dev/kotlin/README.md)
+  * [sealed class](dev/kotlin/sealed-class.md)
 
 ## Books
 

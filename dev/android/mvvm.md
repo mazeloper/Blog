@@ -78,7 +78,7 @@ ViewModel 은 LifecycleOwners 의 특정 인스턴스화보다 오래 지속되�
 ViewModel 객체의 범위는 ViewModel 을 가져올 때 ViewModelProvider 에 전달되는 Lifecycle 로 지정된다.\
 범위로 지정된 Lifecycle 이 완전히 끝날때 까지 메모리에 남아있다.\
 \
-위 [코드](mvvm.md#undefined)에 액비티에서 뷰모델을 초기화할 때 ktx 라이브러리를 사용하는 경우 객체의 범위를 쉽게 지정할 수 있다.
+위 [코드](mvvm.md#undefined)에 액티비티에서 뷰모델을 초기화할 때 ktx 라이브러리를 사용하는 경우 객체의 범위를 쉽게 지정할 수 있다.
 
 #### 프래그먼트 간 데이터 공유
 

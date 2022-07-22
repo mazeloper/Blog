@@ -100,9 +100,9 @@ implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 nav\_graph.xml 파일을 열고 아래와 사진에 표시된 **버튼**을 클릭하면 프래그먼트 클래스 목록이 노출되며 더블 클릭 시,\
 그래프에 해당 프래그먼트가 추가된다.
 
-![](../../../.gitbook/assets/nav\_graph\_1.png)
+![](../../.gitbook/assets/nav\_graph\_1.png)
 
-![프래그먼트를 그래프에 처음 추가하게 되면 tools:layout 속성을 제외하고 위와 같은 소스가 추가된다.](<../../../.gitbook/assets/스크린샷 2022-07-22 오후 2.14.56.png>)
+![프래그먼트를 그래프에 처음 추가하게 되면 tools:layout 속성을 제외하고 위와 같은 소스가 추가된다.](<../../.gitbook/assets/스크린샷 2022-07-22 오후 2.14.56.png>)
 
 `app:startDestination` 속성은 navHost로 지정된 해당 액티비티가 실행되었을 때, 처음으로 시작하는 화면설정이다. 아래 `fragment` 태그에 정의된 **id** 와 동일해야 한다.\
 \
@@ -116,7 +116,7 @@ nav\_graph.xml 파일을 열고 아래와 사진에 표시된 **버튼**을 클�
 
 프래그먼트를 하나 더 생성하고, 위와 같은 방식으로 탐색 그래프에 대상을 추가한다.
 
-![오른쪽 listFragment는 tools:layout 속성을 주지 않은 상태이다.](<../../../.gitbook/assets/스크린샷 2022-07-22 오후 2.51.03.png>)
+![오른쪽 listFragment는 tools:layout 속성을 주지 않은 상태이다.](<../../.gitbook/assets/스크린샷 2022-07-22 오후 2.51.03.png>)
 
 프래그먼트를 추가하고 `Navigation Editor` 에서 특정 프래그먼트를 클릭하면  위 사진과 같이 오른쪽 중앙에 큰 동그라미가 표시된다. 해당 버튼을 클릭 한 채로 이동하려는 대상(listFragment) 로 끌고가면 XML 코드에서 `action` 이라는 태그가 생성되며 화면전환 대상 지정은 끝이다.
 

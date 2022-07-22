@@ -6,6 +6,6 @@ description: Android Architecture Component Library
 
 ![https://developer.android.com/jetpack](https://developer.android.com/images/hero-assets/android-jetpack.svg)
 
-{% content-ref url="navigation.md" %}
-[navigation.md](navigation.md)
+{% content-ref url="../jetpack-navigation.md" %}
+[jetpack-navigation.md](../jetpack-navigation.md)
 {% endcontent-ref %}

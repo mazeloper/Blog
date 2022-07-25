@@ -11,8 +11,7 @@
   * [Jetpack](dev/android/jetpack/README.md)
     * [Navigation](dev/android/jetpack-navigation.md)
     * [LiveData](dev/android/jetpack/livedata.md)
-* [Kotlin](dev/kotlin/README.md)
-  * [sealed class](dev/kotlin/sealed-class.md)
+* [Kotlin](dev/kotlin.md)
 
 ## Books
 

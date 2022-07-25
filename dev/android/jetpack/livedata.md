@@ -42,7 +42,7 @@ class MyViewModel: ViewModel() {
     // 값을 주입하는 _resData 는 변경가능 한 Mutable형을 사용하고
     // resData는 값이 불가능한 Immutable형을 사용한다.
     
-    private val _resData: MutableLiveData<String> = MutableLiveData("initialize liveData")
+    private val _resData: MutableLiveData<Int> = MutableLiveData()
     val resData
         get() = _resData
 }
@@ -78,4 +78,45 @@ class MyActivity: AppCompatActivity() {
 }
 ```
 
-// todo&#x20;
+**관찰자 등록 (observe 메서드) 은 액티비티 기준** `onCreate()`**메서드에서 해주는 것이 좋다.**\
+****\
+****사용자 활동에 따라 `onResume()`은 여러번 호출될 수 있는 메서드이므로 중복 호출을 하지 않도록 해야한다.\
+또한 `STARTED` 상태가 되었을 때, LiveData는 즉시 최신 데이터를 수신한다. 이는 이미 관찰자가 등록되어있을 때만 발생하므로 이전에 설정을 해놓아야 한다.
+
+### LiveData 객체 업데이트
+
+아래 예제는 액티비티 내 버튼 클릭 시 뷰모델에 있는 MutableLiveData 객체에 값을 수정하고,\
+해당 데이터를 관찰하는 액티비티에서 UI를 변경한다.
+
+```kotlin
+# MyActivity.class
+    ...
+    override onCreate(saveInstanceState: Bundle?) {
+        ...
+        
+        findViewById<Button>(R.id.btn_ok).setOnClickListener {
+            myViewModel.plusNum()
+        }
+        viewModel.resData.observe(this) {
+            findViewById<TextView>(R.id.num_text_view).text(it)
+        }
+    }
+```
+
+```kotlin
+# MyViewModel.class
+    ...
+    fun plusNum() {
+        val num = _resData.value ?: 0
+        // 라이브데이터 값을 변경하는 메서드는 setValue / postValue() 가 있다.
+        _resData.postValue(++num)
+        // _resData.setValue(++num)
+    }
+```
+
+`setValue()` : 해당 메서드는 메인스레드에서 호출된다.\
+`postValue()` : 해당 메서드는 백그라운드 스레드에서 작업을 처리하고 메인스레드에 값을 post 하는 방식이다.
+
+
+
+// todo ...

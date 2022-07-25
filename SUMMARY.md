@@ -10,6 +10,7 @@
     * [Koin](dev/android/library/koin.md)
   * [Jetpack](dev/android/jetpack/README.md)
     * [Navigation](dev/android/jetpack-navigation.md)
+    * [LiveData](dev/android/jetpack/livedata.md)
 * [Kotlin](dev/kotlin/README.md)
   * [sealed class](dev/kotlin/sealed-class.md)
 

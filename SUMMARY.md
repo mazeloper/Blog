@@ -12,6 +12,7 @@
     * [ViewModel](dev/android/jetpack/viewmodel.md)
     * [Navigation](dev/android/jetpack-navigation.md)
     * [LiveData](dev/android/jetpack/livedata.md)
+    * [DataBinding](dev/android/jetpack/databinding.md)
 * [Kotlin](dev/kotlin.md)
 
 ## Books

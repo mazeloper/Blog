@@ -8,7 +8,7 @@ Android Architecture Component Library 중 하나인 `Navigation` 에 대해서 
 
 ![https://developer.android.com/guide/navigation/navigation-design-graph](https://developer.android.com/static/images/topic/libraries/architecture/navigation-design-graph-top-level.png)
 
-### Navigation 이란?
+## Navigation 이란?
 
 Jetpack 중 하나인 Navigation Component 는 액티비티나 프래그먼트 간의 이동을 안정적이고 간단하게 도와주는 컴포넌트이다. 또한 화면간의 이동을 iOS 의 storyboard 처럼 직관화할 수 있어 어플리케이션의 화면흐름을 쉽게 알 수 있다.\
 \
@@ -22,7 +22,7 @@ Android Document에 명시된 네비게이션 도입으로 인한 장점은 아�
 * Safe Args - 화면 전환간의 데이터 전달을 전달할 때 안정성을 제공
 * ViewModel 지원
 
-#### # 구성요소
+### 구성요소
 
 > #### Navigation Graph
 >
@@ -39,7 +39,7 @@ Android Document에 명시된 네비게이션 도입으로 인한 장점은 아�
 > `NavHost` 에서 앱 탐색을 관리하는 객체이다.\
 > `NavController` 는 사용자가 앱 내에서 이동할 때 `NavHost` 에서 대상 화면의 전환을 조종한다
 
-#### # 구현
+### 구현
 
 \- **Navigation 라이브러리 추가** (build.gradle)
 
@@ -140,6 +140,7 @@ override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 화면전환 1번방식은 nav\_graph 파일에 정의된 액션태그에 아이디와 동일하다\
 화면전환 2번방식은 추후에 작성할 safe-args 관련하여 플러그인 설정 후 사용이 가능하다
 
+### NavDirections
 
-
-//
+NavDirection 은 Activity 실행과 비교하면 Intent 와 비슷하다. 개발자가 직접 설정하는게 아닌, Navigation에 의해 자동으로 생성되는 클래스이다.\
+위 예제 코드에서 언급한 SafeArgs 는 Bundle 에서 NavGraph 선언과 동일한 Type Data를 가져오는 Helper로 생각하면 된다.

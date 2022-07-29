@@ -22,6 +22,10 @@ description: Android Architecture Component Library
 [livedata.md](livedata.md)
 {% endcontent-ref %}
 
+{% content-ref url="viewmodel.md" %}
+[viewmodel.md](viewmodel.md)
+{% endcontent-ref %}
+
 ### UI
 
 ### Foundation

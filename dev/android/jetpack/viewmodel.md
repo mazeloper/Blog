@@ -101,3 +101,7 @@ class DetailFragment : Fragment() {
 위 코드와 같이 사용하면 액티비티에 연결된 뷰모델 객체를 공용으로 프래그먼트에서 사용할 수 있다.\
 방법1 에서처럼 activity-ktx 와 같이 fragment-ktx 라이브러리를 사용하여 간단하게 인스턴스화 할 수 있고,\
 방법2 는 기존 액티비티에서 뷰모델을 연결한거 같이 사용하면 된다. 여기서는 ViewModelProvider에 Lifecycle을 `this` 로 설정하게되면 자기 자신(프래그먼트)에 라이플사이클을 따라가기 때문에 연결된 액티비티 라이플사이클을연결시켜줘야 한다.
+
+{% embed url="https://developer.android.com/topic/libraries/architecture/saving-states?hl=ko" %}
+reference
+{% endembed %}

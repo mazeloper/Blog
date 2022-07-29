@@ -1,5 +1,5 @@
 ---
-description: AAC Jetpack LiveData
+description: Lifecycle-aware component
 ---
 
 # LiveData

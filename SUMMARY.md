@@ -9,6 +9,7 @@
   * [DI](dev/android/library/README.md)
     * [Koin](dev/android/library/koin.md)
   * [Jetpack](dev/android/jetpack/README.md)
+    * [ViewModel](dev/android/jetpack/viewmodel.md)
     * [Navigation](dev/android/jetpack-navigation.md)
     * [LiveData](dev/android/jetpack/livedata.md)
 * [Kotlin](dev/kotlin.md)

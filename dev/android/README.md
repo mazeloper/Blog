@@ -2,7 +2,7 @@
 description: 삽질일기
 ---
 
-# Android
+# 🤖 Android
 
 {% content-ref url="mvvm.md" %}
 [mvvm.md](mvvm.md)

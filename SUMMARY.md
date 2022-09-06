@@ -17,6 +17,7 @@
 * [🌱 TIL](dev/til/README.md)
   * [2022.09](dev/til/2022.09/README.md)
     * [09/05 (Mon)](dev/til/2022.09/09-05-mon.md)
+    * [09/06 (Tue)](dev/til/2022.09/09-06-tue.md)
 
 ## Books
 
